@@ -1,5 +1,24 @@
+.phone-nav .navtitle {
+    font-size: 22px;
+}
+
+.phone-nav>a img {
+    width: 28px;
+    top: 16px;
+}
+
+.show p {
+    font-size: 18px;
+    bottom: 16%;
+}
+
 .head_title {
     font-size: 20px;
+    margin: 20px 0;
+}
+
+.head_title h3 {
+    padding-top: 0;
 }
 
 .content {
@@ -13,6 +32,7 @@
 
 .icon {
     width: 40%;
+    margin: 10px auto;
 }
 
 .icon a {
@@ -30,9 +50,9 @@
 }
 
 .skill .skill-list li {
-    width: 126px;
-    height: 126px;
-    margin: 5px;
+    width: 108px;
+    height: 108px;
+    margin: 10px;
 }
 
 .hide {
@@ -63,5 +83,5 @@
 }
 
 .head_title h3::after {
-    width: 140px;
+    width: 120px;
 }
