@@ -18,7 +18,17 @@ $(function() {
             flag = true;
         }
     });
+    // 手机navIcon 弹出nav导航栏
+    $(".phoneicon").click(function() {
+        if (flag === true) {
+            $(".nav-list").show();
+            flag = false;
+        } else {
+            $(".nav-list").hide();
+            flag = true;
+        }
 
+    });
     //第3屏幕3D动画效果
     //获取方向->获取进出->添加类名
     var oLi = Array.prototype.slice.call($('.skill-list li'));
