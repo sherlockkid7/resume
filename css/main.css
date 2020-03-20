@@ -710,6 +710,10 @@ body .hidden {
 
 /* navIcon css */
 
+.phone-nav {
+    display: none;
+}
+
 .navIcon {
     position: fixed;
     top: 37px;

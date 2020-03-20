@@ -4,8 +4,66 @@
 }
 
 .nav {
-    top: 66px;
-    right: 8px;
+    display: none;
+}
+
+.phone-nav {
+    display: block;
+    background-color: #0a0a0a;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    height: 50px;
+    z-index: 998;
+}
+
+.phone-nav .navtitle {
+    line-height: 50px;
+    margin-left: 12px;
+    font-size: 26px;
+    font-family: SimSun, "微软雅黑", "宋体", sans-serif;
+    ;
+}
+
+.phone-nav>a img {
+    width: 34px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+
+.phone-nav ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.phone-nav ul li {
+    line-height: 40px;
+    background-color: rgba(10, 10, 10, .4);
+}
+
+.phone-nav ul li.active {
+    background-color: rgba(0, 245, 245, .5);
+}
+
+.head_title {
+    font-size: 24px;
+}
+
+.head_title h3::after {
+    width: 160px;
+}
+
+.head_title .enwords {
+    padding: 5px;
+    letter-spacing: 2px;
 }
 
 .navIcon {
@@ -13,8 +71,13 @@
     right: 20px;
 }
 
+.test {
+    top: 6%;
+}
+
 .content {
-    width: 60%;
+    width: 50%;
+    padding: 20px;
 }
 
 .content p {
@@ -22,8 +85,7 @@
 }
 
 .icon {
-    width: 60%;
-    margin: 44px auto 20px;
+    width: 50%;
 }
 
 .section1 .desc h2 {
@@ -41,8 +103,21 @@
     margin: 12px;
 }
 
+.hide {
+    font-size: 10px;
+    padding: 5px;
+    letter-spacing: normal;
+}
+
+.hide p {
+    margin-bottom: 0;
+}
+
+.main,
 .section4 .main {
     width: 100%;
+    top: 18%;
+    padding-top: 40px;
 }
 
 .section4 .main .demo>ul {
