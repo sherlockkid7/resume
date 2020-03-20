@@ -1,0 +1,87 @@
+.phone-nav .navtitle {
+    font-size: 22px;
+}
+
+.phone-nav>a img {
+    width: 28px;
+    top: 16px;
+}
+
+.show p {
+    font-size: 18px;
+    bottom: 16%;
+}
+
+.head_title {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.head_title h3 {
+    padding-top: 0;
+}
+
+.content {
+    width: 40%;
+    padding: 0 20px;
+}
+
+.content p {
+    line-height: 1.2;
+}
+
+.icon {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.icon a {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+.icon a .iconfont {
+    font-size: 22px;
+}
+
+.icon p {
+    width: 100%;
+}
+
+.skill .skill-list li {
+    width: 108px;
+    height: 108px;
+    margin: 10px;
+}
+
+.hide {
+    overflow: hidden;
+}
+
+.section4 .main .demo>ul li {
+    width: 126px;
+    margin-top: 10px;
+}
+
+.weixin-tips {
+    width: 110px;
+    height: 112px;
+    background-size: 100% 100%;
+    background-position: center;
+    top: -130px;
+    left: -38px;
+}
+
+.qq-tips {
+    width: 110px;
+    height: 125px;
+    background-size: 100% 100%;
+    background-position: center;
+    top: -142px;
+    left: -39px;
+}
+
+.head_title h3::after {
+    width: 120px;
+}
