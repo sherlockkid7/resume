@@ -1,0 +1,74 @@
+.brand,
+#fp-nav.fp-right {
+    display: none;
+}
+
+.nav {
+    top: 66px;
+    right: 8px;
+}
+
+.navIcon {
+    top: 20px;
+    right: 20px;
+}
+
+.content {
+    width: 60%;
+}
+
+.content p {
+    line-height: 1.5;
+}
+
+.icon {
+    width: 60%;
+    margin: 44px auto 20px;
+}
+
+.section1 .desc h2 {
+    font-size: 40px;
+    font-family: SimSun, "微软雅黑", "宋体", sans-serif;
+}
+
+.section1 .desc p {
+    font-size: 22px;
+}
+
+.skill .skill-list li {
+    width: 140px;
+    height: 140px;
+    margin: 12px;
+}
+
+.section4 .main {
+    width: 100%;
+}
+
+.section4 .main .demo>ul {
+    display: block;
+    text-align: center;
+}
+
+.section4 .main .demo>ul li {
+    display: inline-block;
+    width: 160px;
+    margin-top: 24px;
+}
+
+.demo-bg .demo-inner .demo-desc {
+    top: -20%;
+}
+
+.section5 .main {
+    text-align: center;
+}
+
+.contact-box {
+    width: 100%;
+    margin: none;
+}
+
+.contact-title span {
+    padding: 0 10px;
+}

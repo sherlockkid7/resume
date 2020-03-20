@@ -1,0 +1,116 @@
+body {
+    font-size: 16px;
+}
+
+.brand {
+    width: 140px;
+    left: 26px;
+    padding: 6px;
+}
+
+.brand>img {
+    width: 40px;
+}
+
+.brand span {
+    font-size: 20px;
+    left: 46px;
+    top: 14px;
+}
+
+.nav {
+    top: 90px;
+    right: 12px;
+}
+
+.navIcon {
+    top: 30px;
+    right: 30px;
+}
+
+.navIcon .iconfont {
+    font-size: 30px;
+}
+
+.nav ul li a {
+    font-size: 20px;
+}
+
+.section1 .desc h2 {
+    font-size: 68px;
+}
+
+#fp-nav ul li {
+    width: 6px;
+    height: 6px;
+    margin: 16px;
+}
+
+#fp-nav.fp-right {
+    top: 84%;
+    right: 30px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span,
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+    height: 8px;
+    width: 8px;
+    margin: -4px 0px 0px -4px;
+}
+
+.container {
+    padding: 0;
+}
+
+.head_title {
+    font-size: 30px;
+}
+
+.content {
+    width: 90%;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.icon a {
+    width: 60px;
+    height: 60px;
+}
+
+.icon a .iconfont {
+    font-size: 28px;
+}
+
+.test {
+    top: 10%;
+}
+
+.section4 .main {
+    padding-top: 100px;
+    width: 90%;
+}
+
+.section4 .main .demo>ul li {
+    width: 160px;
+    height: 142px;
+    box-sizing: border-box;
+}
+
+.demo-bg .demo-inner .demo-desc {
+    top: -22%;
+}
+
+.contact-box::before,
+.contact-box::after {
+    width: 0;
+    height: 0;
+    border: none;
+}
