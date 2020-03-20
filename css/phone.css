@@ -1,3 +1,7 @@
+body {
+    font-size: 14px;
+}
+
 .brand,
 #fp-nav.fp-right {
     display: none;
@@ -84,6 +88,11 @@
     line-height: 1.5;
 }
 
+.content:hover {
+    box-shadow: 0 0 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .icon {
     width: 50%;
 }
@@ -95,6 +104,10 @@
 
 .section1 .desc p {
     font-size: 22px;
+}
+
+.enduskill {
+    display: none;
 }
 
 .skill .skill-list li {
@@ -127,8 +140,8 @@
 
 .section4 .main .demo>ul li {
     display: inline-block;
-    width: 160px;
-    margin-top: 24px;
+    width: 140px;
+    margin-top: 20px;
 }
 
 .demo-bg .demo-inner .demo-desc {
