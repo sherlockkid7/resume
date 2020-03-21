@@ -1,3 +1,7 @@
+body {
+    font-size: 14px;
+}
+
 .phone-nav .navtitle {
     font-size: 22px;
 }
@@ -8,16 +12,20 @@
 }
 
 .show p {
-    font-size: 18px;
-    bottom: 16%;
+    font-size: 14px;
+    bottom: 10%;
 }
 
 .head_title {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .icon {
     margin: 0;
+}
+
+.content {
+    padding: 10px;
 }
 
 .content p {
@@ -27,21 +35,21 @@
 .icon a {
     width: 40px;
     height: 40px;
-    margin: 0;
 }
 
 .icon a .iconfont {
     font-size: 22px;
 }
 
-.icon p {
-    width: 100%;
+.skill .skill-list {
+    display: block;
+    text-align: center;
 }
 
 .skill .skill-list li {
-    width: 34%;
-    height: 100px;
-    margin: 16px auto;
+    width: 30%;
+    height: 94px;
+    margin: 16px;
 }
 
 .hide {

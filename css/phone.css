@@ -45,6 +45,7 @@
 }
 
 .phone-nav ul li {
+    font-size: 18px;
     line-height: 40px;
     background-color: rgba(10, 10, 10, .4);
 }
@@ -86,6 +87,10 @@
 
 .content p {
     line-height: 1.5;
+}
+
+.icon {
+    margin: 0;
 }
 
 .content:hover {
