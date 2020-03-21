@@ -16,6 +16,10 @@
     font-size: 20px;
 }
 
+.icon {
+    margin: 0;
+}
+
 .content p {
     line-height: 1.2;
 }
@@ -35,12 +39,18 @@
 }
 
 .skill .skill-list li {
-    width: 35%;
-    height: 110px;
+    width: 34%;
+    height: 100px;
+    margin: 16px auto;
 }
 
 .hide {
     overflow: hidden;
+}
+
+.main,
+.section4 .main {
+    top: 16%;
 }
 
 .section4 .main .demo>ul li {
