@@ -14,25 +14,10 @@
 
 .head_title {
     font-size: 20px;
-    margin: 20px 0;
-}
-
-.head_title h3 {
-    padding-top: 0;
-}
-
-.content {
-    width: 40%;
-    padding: 0 20px;
 }
 
 .content p {
     line-height: 1.2;
-}
-
-.icon {
-    width: 40%;
-    margin: 10px auto;
 }
 
 .icon a {
@@ -50,9 +35,8 @@
 }
 
 .skill .skill-list li {
-    width: 108px;
-    height: 108px;
-    margin: 10px;
+    width: 35%;
+    height: 110px;
 }
 
 .hide {

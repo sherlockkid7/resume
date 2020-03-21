@@ -59,6 +59,7 @@ body {
 
 .head_title {
     font-size: 24px;
+    margin: 0;
 }
 
 .head_title h3::after {
@@ -76,11 +77,14 @@ body {
 }
 
 .test {
-    top: 6%;
+    top: 10%;
+}
+
+.container {
+    width: 100%;
 }
 
 .content {
-    width: 50%;
     padding: 20px;
 }
 
@@ -91,10 +95,6 @@ body {
 .content:hover {
     box-shadow: 0 0 0;
     background-color: rgba(255, 255, 255, 0);
-}
-
-.icon {
-    width: 50%;
 }
 
 .section1 .desc h2 {
@@ -129,8 +129,7 @@ body {
 .main,
 .section4 .main {
     width: 100%;
-    top: 18%;
-    padding-top: 40px;
+    top: 20%;
 }
 
 .section4 .main .demo>ul {
@@ -146,10 +145,6 @@ body {
 
 .demo-bg .demo-inner .demo-desc {
     top: -20%;
-}
-
-.section5 .main {
-    text-align: center;
 }
 
 .contact-box {

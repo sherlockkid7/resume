@@ -47,7 +47,7 @@ body {
 }
 
 #fp-nav.fp-right {
-    top: 84%;
+    top: 70%;
     right: 30px;
 }
 
@@ -70,14 +70,8 @@ body {
 }
 
 .content {
-    width: 90%;
     padding: 20px 40px;
     margin: 0 auto;
-}
-
-.icon {
-    width: 90%;
-    margin: 20px auto;
 }
 
 .icon a {
@@ -94,7 +88,6 @@ body {
 }
 
 .section4 .main {
-    padding-top: 100px;
     width: 90%;
 }
 
